@@ -178,17 +178,17 @@ export function createTable(rowsPerPage, books) {
   }
   let elements = document.getElementsByClassName("editb");
   console.log(elements);
-for (let i = 0; i < elements.length; i++) {
-elements[i].addEventListener("click", function () {
-  debugger;
-    let addBtnn = document.getElementById("addBookBtn");
-    let editBtn = document.getElementById("EditBookBtn");
-    addBtnn.classList.add("d-none");
-    editBtn.classList.remove("d-none");
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].addEventListener("click", function () {
+      debugger;
+      let addBtnn = document.getElementById("addBookBtn");
+      let editBtn = document.getElementById("EditBookBtn");
+      addBtnn.classList.add("d-none");
+      editBtn.classList.remove("d-none");
 
-    valid.clearModalInputs();
-});
-}
+      valid.clearModalInputs();
+    });
+  }
 }
 export function createSellerTable(rowsPerPage, books) {
   debugger;
@@ -257,17 +257,17 @@ export function createSellerTable(rowsPerPage, books) {
   }
   let elements = document.getElementsByClassName("editb");
   console.log(elements);
-for (let i = 0; i < elements.length; i++) {
-elements[i].addEventListener("click", function () {
-  debugger;
-    let addBtnn = document.getElementById("addBookBtn");
-    let editBtn = document.getElementById("EditBookBtn");
-    addBtnn.classList.add("d-none");
-    editBtn.classList.remove("d-none");
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].addEventListener("click", function () {
+      debugger;
+      let addBtnn = document.getElementById("addBookBtn");
+      let editBtn = document.getElementById("EditBookBtn");
+      addBtnn.classList.add("d-none");
+      editBtn.classList.remove("d-none");
 
-    valid.clearModalInputs();
-});
-}
+      valid.clearModalInputs();
+    });
+  }
 }
 function getSellerNameFromID(id) {
   let users = JSON.parse(localStorage.getItem("users")) || [];
@@ -318,17 +318,17 @@ export function updateTable(rowsPerPage, books) {
 
   let elements = document.getElementsByClassName("editb");
   console.log(elements);
-for (let i = 0; i < elements.length; i++) {
-elements[i].addEventListener("click", function () {
-  debugger;
-    let addBtnn = document.getElementById("addBookBtn");
-    let editBtn = document.getElementById("EditBookBtn");
-    addBtnn.classList.add("d-none");
-    editBtn.classList.remove("d-none");
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].addEventListener("click", function () {
+      debugger;
+      let addBtnn = document.getElementById("addBookBtn");
+      let editBtn = document.getElementById("EditBookBtn");
+      addBtnn.classList.add("d-none");
+      editBtn.classList.remove("d-none");
 
-    valid.clearModalInputs();
-});
-}
+      valid.clearModalInputs();
+    });
+  }
 }
 /*===============End Display================*/
 
@@ -358,7 +358,7 @@ export function Add(books, rowsPerPage) {
     price: price,
     category: category,
     salerID: currentUser[0].id,
-    imgLink: "Resources/Images/books/" + bookImage,
+    imgLink: "./Resources/Images/books/" + bookImage,
     stockNum: numOfStock,
   };
 
@@ -419,7 +419,7 @@ export function EditV2(books, rowsPerPage) {
   book["category"] = category;
 
   if (bookImage) {
-    book["imgLink"] = "Resources/Images/books/" + bookImage;
+    book["imgLink"] = "./Resources/Images/books/" + bookImage;
   }
 
   var orders = JSON.parse(localStorage.getItem("orders")) || [];
@@ -453,7 +453,7 @@ export function EditV2(books, rowsPerPage) {
 
   updateLocalStorage(books);
   var currentUser = JSON.parse(localStorage.getItem("currentUser")) || [];
-   let a = books.filter((book) => book["salerID"] === currentUser[0].id);
+  let a = books.filter((book) => book["salerID"] === currentUser[0].id);
   createTable(rowsPerPage, a);
   $("#ModelBook").modal("hide");
 }
@@ -479,7 +479,7 @@ export function EditSellerV2(books, rowsPerPage) {
   book["category"] = category;
 
   if (bookImage) {
-    book["imgLink"] = "Resources/Images/books/" + bookImage;
+    book["imgLink"] = "./Resources/Images/books/" + bookImage;
   }
 
   var orders = JSON.parse(localStorage.getItem("orders")) || [];

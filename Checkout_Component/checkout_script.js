@@ -18,7 +18,7 @@ const sampleCartData = [
         price: 135,
         quantity: 2,
         sellerId: 1,
-        imgLink: "Resources/Images/books/TaleofTwoCities.jpg",
+        imgLink: "./Resources/Images/books/TaleofTwoCities.jpg",
       },
       {
         ID: 2,
@@ -26,7 +26,7 @@ const sampleCartData = [
         price: 125,
         quantity: 4,
         sellerId: 5,
-        imgLink: "Resources/Images/books/TheFinalGambit.jpg",
+        imgLink: "./Resources/Images/books/TheFinalGambit.jpg",
       },
       {
         ID: 3,
@@ -34,7 +34,7 @@ const sampleCartData = [
         price: 115,
         quantity: 3,
         sellerId: 6,
-        imgLink: "Resources/Images/books/abuAlhoulBook.jpg",
+        imgLink: "./Resources/Images/books/abuAlhoulBook.jpg",
       },
     ],
   },
@@ -491,7 +491,7 @@ function displayCartToDOM(_cart) {
         "name": "Tale of Two Cities",
         "price": 135,
         "quantity": 1,
-        "imgLink": "Resources/Images/books/TaleofTwoCities.jpg"
+        "imgLink": "./Resources/Images/books/TaleofTwoCities.jpg"
     },
     {
         "ID": 2,
@@ -499,7 +499,7 @@ function displayCartToDOM(_cart) {
         "name": "Men From Mars And Women From Venus",
         "price": 222,
         "quantity": 1,
-        "imgLink": "Resources/Images/books/MenFromMarsAndWomenFromVenus.jpg"
+        "imgLink": "./Resources/Images/books/MenFromMarsAndWomenFromVenus.jpg"
     }
 ] */
 function computeDiscountTotal(cart) {

@@ -8,7 +8,7 @@
       "price": 115,
       "category": "Fiction",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/abuAlhoulBook.jpg",
+      "imgLink": "./Resources/Images/books/abuAlhoulBook.jpg",
       "stockNum": 10
     },
     {
@@ -19,7 +19,7 @@
       "price": 125,
       "category": "Fiction",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/TheFinalGambit.jpg",
+      "imgLink": "./Resources/Images/books/TheFinalGambit.jpg",
       "stockNum": 10
     },
     {
@@ -30,7 +30,7 @@
       "price": 158,
       "category": "Fiction",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/FireAndBlood.jpg",
+      "imgLink": "./Resources/Images/books/FireAndBlood.jpg",
       "stockNum": 10
     },
     {
@@ -41,7 +41,7 @@
       "price": 135,
       "category": "Fiction",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/TaleofTwoCities.jpg",
+      "imgLink": "./Resources/Images/books/TaleofTwoCities.jpg",
       "stockNum": 10
     },
     {
@@ -52,7 +52,7 @@
       "price": 340,
       "category": "Fiction",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/MurderOnTheOrientExpress.jpeg",
+      "imgLink": "./Resources/Images/books/MurderOnTheOrientExpress.jpeg",
       "stockNum": 10
     },
     {
@@ -63,7 +63,7 @@
       "price": 150,
       "category": "Fiction",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/WeFreeTheStars.jpg",
+      "imgLink": "./Resources/Images/books/WeFreeTheStars.jpg",
       "stockNum": 10
     },
 
@@ -75,7 +75,7 @@
       "price": 110,
       "category": "Motivational",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/RichDadAndPoorDad.jpg",
+      "imgLink": "./Resources/Images/books/RichDadAndPoorDad.jpg",
       "stockNum": 10
     },
     {
@@ -86,7 +86,7 @@
       "price": 80,
       "category": "Motivational",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/AtomicHabits.jpg",
+      "imgLink": "./Resources/Images/books/AtomicHabits.jpg",
       "stockNum": 10
     },
     {
@@ -97,7 +97,7 @@
       "price": 186,
       "category": "Motivational",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/GoodToGreat.jpg",
+      "imgLink": "./Resources/Images/books/GoodToGreat.jpg",
       "stockNum": 10
     },
     {
@@ -108,7 +108,7 @@
       "price": 99,
       "category": "Motivational",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/TheBodyKeepsTheScore.jpg",
+      "imgLink": "./Resources/Images/books/TheBodyKeepsTheScore.jpg",
       "stockNum": 10
     },
     {
@@ -119,7 +119,7 @@
       "price": 210,
       "category": "Motivational",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/NeverSplitTheDifference.jpg",
+      "imgLink": "./Resources/Images/books/NeverSplitTheDifference.jpg",
       "stockNum": 10
     },
     {
@@ -130,7 +130,7 @@
       "price": 222,
       "category": "Motivational",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/MenFromMarsAndWomenFromVenus.jpg",
+      "imgLink": "./Resources/Images/books/MenFromMarsAndWomenFromVenus.jpg",
       "stockNum": 10
     },
     {
@@ -141,7 +141,7 @@
       "price": 550,
       "category": "Motivational",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/GreatByChoice.jpg",
+      "imgLink": "./Resources/Images/books/GreatByChoice.jpg",
       "stockNum": 10
     },
     {
@@ -152,7 +152,7 @@
       "price": 550,
       "category": "Children",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/CharlieAndTheChocolateFactory.jpg",
+      "imgLink": "./Resources/Images/books/CharlieAndTheChocolateFactory.jpg",
       "stockNum": 10
     },
     {
@@ -163,7 +163,7 @@
       "price": 320,
       "category": "Children",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/TheChaliceOfTheGods.jpg",
+      "imgLink": "./Resources/Images/books/TheChaliceOfTheGods.jpg",
       "stockNum": 10
     },
     {
@@ -174,7 +174,7 @@
       "price": 350,
       "category": "Children",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/TheSeaOfMonsters.jpg",
+      "imgLink": "./Resources/Images/books/TheSeaOfMonsters.jpg",
       "stockNum": 10
     },
     {
@@ -185,7 +185,7 @@
       "price": 450,
       "category": "Children",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/TheChristmasOwl.jpg",
+      "imgLink": "./Resources/Images/books/TheChristmasOwl.jpg",
       "stockNum": 10
     },
     {
@@ -196,7 +196,7 @@
       "price": 110,
       "category": "Children",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/SongForWhale.jpg",
+      "imgLink": "./Resources/Images/books/SongForWhale.jpg",
       "stockNum": 10
     },
     {
@@ -207,7 +207,7 @@
       "price": 330,
       "category": "Children",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/WinterTurning.jpg",
+      "imgLink": "./Resources/Images/books/WinterTurning.jpg",
       "stockNum": 10
     },
     {
@@ -219,7 +219,7 @@
       "price": 410,
       "category": "Children",
       "salerID": 2,
-      "imgLink": "Resources/Images/books/HarryPotterandthePhilosophersStone.jpg",
+      "imgLink": "./Resources/Images/books/HarryPotterandthePhilosophersStone.jpg",
       "stockNum": 10
     },
     {
@@ -230,7 +230,7 @@
       "price": 210,
       "category": "History",
       "salerID": 2,
-      "imgLink": "Resources/Images/books/GunsGermsAndSteel.jpg",
+      "imgLink": "./Resources/Images/books/GunsGermsAndSteel.jpg",
       "stockNum": 10
     },
     {
@@ -241,7 +241,7 @@
       "price": 610,
       "category": "History",
       "salerID": 2,
-      "imgLink": "Resources/Images/books/TheWarmthOfOtherSuns.jpg",
+      "imgLink": "./Resources/Images/books/TheWarmthOfOtherSuns.jpg",
       "stockNum": 10
     },
     {
@@ -252,7 +252,7 @@
       "price": 210,
       "category": "History",
       "salerID": 1,
-      "imgLink": "Resources/Images/books/AlexanderHamilton.jpeg",
+      "imgLink": "./Resources/Images/books/AlexanderHamilton.jpeg",
       "stockNum": 10
     },
     {
@@ -263,7 +263,7 @@
       "price": 410,
       "category": "History",
       "salerID": 2,
-      "imgLink": "Resources/Images/books/TheCrusades.jpg",
+      "imgLink": "./Resources/Images/books/TheCrusades.jpg",
       "stockNum": 10
     },
     {
@@ -274,7 +274,7 @@
       "price": 220,
       "category": "History",
       "salerID": 2,
-      "imgLink": "Resources/Images/books/TheDevilintheWhiteCity.jpg",
+      "imgLink": "./Resources/Images/books/TheDevilintheWhiteCity.jpg",
       "stockNum": 10
     },
     {
@@ -285,7 +285,7 @@
       "price": 310,
       "category": "History",
       "salerID": 2,
-      "imgLink": "Resources/Images/books/TheGunsofAugust.jpg",
+      "imgLink": "./Resources/Images/books/TheGunsofAugust.jpg",
       "stockNum": 10
     }
   ]
